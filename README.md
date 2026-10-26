@@ -27,7 +27,7 @@ See [Schematics](KiCAD/CASSINI.pdf)
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:GoTouchGra55/GRAVITAS.git
+git clone git@github.com:GoTouchGra55/CASSINI.git
 ```
 
 ### 2. Open the project in a code editor
@@ -35,7 +35,7 @@ git clone git@github.com:GoTouchGra55/GRAVITAS.git
 Navigate into the firmware directory. For VS Code users:
 
 ```bash
-cd GRAVITAS
+cd CASSINI
 code .
 ```
 
@@ -70,7 +70,7 @@ Once the firmware has been flashed, you can stop the debugging session.
 
 ### 7. Disconnect the ST-Link
 
-You can now disconnect the ST-Link from the GRAVITAS board before testing standalone operation.
+You can now disconnect the ST-Link from the CASSINI board before testing standalone operation.
 
 The ST-Link is connected to the STM32's debug and reset circuitry. Leaving it connected can affect the NRST line and prevent the board from operating correctly when powered independently.
 
@@ -78,7 +78,7 @@ I faced this error during the final phases of development and thought that it wa
 
 ### 8. Power the board
 
-Disconnect USB and power GRAVITAS from a suitable power source.
+Disconnect USB and power CASSINI from a suitable power source.
 
 The STM32 should now boot directly from its internal flash and execute the newly flashed firmware.
 
